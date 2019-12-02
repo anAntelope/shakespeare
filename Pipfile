@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "==19.10b0"
+
+[packages]
+pandas = "~=0.25"
+numpy = "~=1.17"
+scikit-learn = "~=0.21"
+matplotlib = "~=3.1"
+tensorflow-gpu = "~=2.0"
+keras = "~=2.3"
+jupyter = "~=1.0"
+scikit-image = "~=0.16"
+attrs = "*"
+tensorflow-datasets = "*"
+nltk = "*"
+gensim = "*"
+plotly = "*"
+
+[requires]
+python_version = "3.7"
